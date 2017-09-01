@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.gxsn.gaodemapdemo.gaode.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+
+    <com.amap.api.maps.MapView
+        android:id="@+id/mv_map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </com.amap.api.maps.MapView>
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/acb_btn_tian"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="去天地图" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/acb_btn"
+        android:layout_width="wrap_content"
+        android:text="去谷歌"
+        android:layout_marginLeft="100dp"
+        android:layout_height="wrap_content" />
+
+
+</RelativeLayout>
